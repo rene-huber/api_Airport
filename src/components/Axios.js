@@ -13,7 +13,7 @@ function Axios() {
   
   axios.request(options).then(function (response) {
     console.log(response.data.collection.items[0].data[0].value);
-  
+    
   }).catch(function (error) {
     console.error(error);
   });
